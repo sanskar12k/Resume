@@ -1,0 +1,25 @@
+.bgcol{
+    background-color: rgb(56, 56, 53);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+    padding-left: 50px;
+}
+
+@media (max-width:600px) {
+    .bgcol{ padding-left: 0px;}
+    .disp{
+        display: none;
+    }
+}
+.footerstyle{
+    list-style-type: none;
+}
+ a{
+    color: inherit;
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: underline;
+    color: inherit;
+}

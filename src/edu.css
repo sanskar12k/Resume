@@ -1,0 +1,11 @@
+table{
+    width: 90%;
+    overflow-x: scroll;
+}
+
+table td{
+    overflow-x:hidden ;
+}
+.tablescroll{
+    overflow-x: auto !important;
+}

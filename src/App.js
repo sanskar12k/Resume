@@ -1,23 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
-
+import About from './About';
+import Navbar from './Navbar';
+import Education from './Education';
+import Skills from './Skills';
+import Achievement from './Acievement';
+import Certifications from './Certifications';
+import Projects from './Projects';
+import POR from './Por';
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Acc from './Accordion';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar/>
+    <div className="mx-md-5 ">
+      {/* <header className="App-header"> */}
+      {/* <Acc/> */}
+        <About/>
+        <Education/>
+        <Skills/>
+        <Achievement/>
+        
+        <Projects/>
+        <Certifications/>
+        <POR/>
+        </div>
+        <Footer/>
+      {/* </header> */}
     </div>
   );
 }
