@@ -8,9 +8,9 @@ const Navbars  = () =>{
 <Navbar bg="light" expand="lg" className=" sticky-top">
   <Container>
     <Navbar.Brand href="#about" className="fw-bold navhead ps-4 ">Sanskar Gupta</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle aria-controls="basic-navbar-nav mx-4" />
    
-    <Navbar.Collapse id="basic-navbar-nav" className="outline">
+    <Navbar.Collapse id="basic-navbar-nav" className="outline mx-2">
       <Nav className="ms-auto fw-normal h5">
         <Nav.Link href="#about" className="navlink">Home</Nav.Link>
         <Nav.Link href="#edu" className="navlink">Education</Nav.Link>

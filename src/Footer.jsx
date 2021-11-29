@@ -36,7 +36,7 @@ const Footer = () => {
             <ul className="footerstyle text-light text-start lh-lg" >
             <h2 className="underline text-light text-start " > <u> Contact Me </u></h2>
             <li className="mt-md-4 h5">Sanskar Gupta</li>
-                <li className=" h5">A.K. Traders,Kachari Road, Ghazipur</li>
+                <li className=" h5">A.K. Traders, Ghazipur</li>
                 <li className="h5">IIT Kharagpur</li>
                 <li className="h5"><a href="tel:7852830128"><CallIcon fontSize="small" /> 7852830128</a></li>
                 <li className="h5"><a href="mailto:sanskarmodanwal8@gmail.com"> <MailIcon fontSize="small"/> sanskarmodanwal8@gmail.com</a></li>

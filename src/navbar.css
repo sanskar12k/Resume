@@ -17,3 +17,6 @@
 .outline {
     outline: none;
 }
+.navbar button{
+    margin-right: 10px;
+}
