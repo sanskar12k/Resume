@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import dev from "./imgs/pro.jpeg";
 import Typed from 'typed.js';
-import Resume from "./imgs/Sanskar_Gupta_CV.pdf";
+import Resume from "./imgs/Resume.pdf";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
 import Button from '@mui/material/Button';
